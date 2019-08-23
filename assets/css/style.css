@@ -60,9 +60,18 @@ nav {
     /* background-color: grey; */
     height: 8vh;
     margin-right: 10px;
+    padding: 1.4vh 0;
     float: right;
     display: table;
 }
+    .nav-linksBlock:before,
+    .nav-linksBlock:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    .nav-linksBlock:after {
+        clear: both;
+    }
 .nav-item {
     display: table-cell;
     color: #1f1f1f;
@@ -163,8 +172,8 @@ nav {
             .img-label {
                 display: table-cell;
                 color: whitesmoke;
-                text-align: center;
-                vertical-align: middle;
+                    text-align: center;
+                    vertical-align: middle;
                 font-size: 20px;
                 /* font-family:  */
             }
