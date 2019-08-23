@@ -19,10 +19,17 @@ hr {
     margin-bottom: 20px;
 }
 
+/* 
+font-family: 'Kameron', serif;
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Questrial', sans-serif;
+ */
 
 /* ---------Navigation Bar-------- */
 nav {
     background-color: slategrey;
+    font-family: 'Kameron', serif;
     /* position: fixed; */
     width: 100%;
     min-height: 8vh;
@@ -97,9 +104,15 @@ nav {
         /* background-color: #fff; */
         height: 75px;
         color: #1f1f1f;
+        font-family: 'Kameron', serif;
         font-size: 45px;
         display: table-cell;
         vertical-align: middle;
+    }
+    .content-text {
+        max-width: 100%;
+        font-size: 18px;
+        font-family: 'Questrial', sans-serif;
     }
     .block-image {
         float: left;
@@ -134,6 +147,7 @@ nav {
     }
         .portfolio-item {
             float: left;
+            font-family: 'Questrial', sans-serif;
             height: 250px;
             width: 250px;
         }
@@ -153,13 +167,10 @@ nav {
                 font-size: 20px;
                 /* font-family:  */
             }
-    .content-text {
-        max-width: 100%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
     
     .form-container {
         margin-bottom: 10px;
+        font-family: 'Questrial', sans-serif;
     }
         .form-submit {
 
